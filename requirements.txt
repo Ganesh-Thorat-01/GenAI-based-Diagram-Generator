@@ -1,0 +1,10 @@
+google-generativeai
+python-dotenv
+langchain
+langchain-community
+langchain_google_genai
+streamlit
+beautifulsoup4
+diagrams
+graphviz
+langchain-openai
