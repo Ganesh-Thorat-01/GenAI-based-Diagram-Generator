@@ -94,6 +94,11 @@ If the generated code encounters an error during execution:
 2. The AI provides a corrected version of the code.
 3. The corrected code is executed to regenerate the diagram.
 
+## 📷 Screenshot 
+Here’s a peek at the app:
+
+![App Screenshot](assets/Screenshot%202024-12-25%20at%2020-41-30%20Diagrams%20Generator.png)
+
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
