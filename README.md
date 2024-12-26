@@ -69,12 +69,14 @@ The GenAI Diagrams Generator is a Streamlit-based application that leverages Goo
 The application supports configuration through the `config.json` file:
 ```json
 {
-  "Models": ["gemini-1.5-pro", "gemini-1.5-pro-exp-0827", "gemini-1.5-flash", "gemini-1.5-flash-8b", "gpt-4o", "gpt-4o-mini"],
-  "Examples": [
-    "Deploy a web application using AWS services with high availability, scalability, and fault tolerance.",
-    "Design a machine learning pipeline for training and deploying a predictive model on AWS.",
-    "Design a machine learning pipeline for training and deploying a predictive model on Azure."
-  ]
+  "Models":["gemini-1.5-pro","gemini-1.5-pro-exp-0827","gemini-1.5-flash",
+            "gemini-1.5-flash-8b","gpt-4o","gpt-4o-mini"],
+  "Examples":[
+"Architecture diagram to Deploy a web application using AWS services with high availability, scalability, and fault tolerance.",
+"Design a machine learning pipeline for training and deploying a predictive model on AWS.",
+"Design a machine learning pipeline for training and deploying a predictive model on Azure.",
+"C4 Diagram of Container of Internet Banking System"
+]
 }
 ```
 - **Models**: List of supported AI models from Google and OpenAI.
@@ -97,7 +99,8 @@ If the generated code encounters an error during execution:
 ## 📷 Screenshot 
 Here’s a peek at the app:
 
-![App Screenshot](assets/Screenshot%202024-12-25%20at%2020-41-30%20Diagrams%20Generator.png)
+![App Screenshot](assets/ss1.png)
+![App Screenshot](assets/ss2.png)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
@@ -109,4 +112,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 For any queries or issues, please contact:
 - **Developer**: Ganesh Thorat
-- **Email**: [thorat.ganeshscoe@gmail.com]
+- **Email**: thorat.ganeshscoe@gmail.com

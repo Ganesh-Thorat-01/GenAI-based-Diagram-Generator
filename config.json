@@ -1,7 +1,8 @@
 {   "Models":["gemini-1.5-pro","gemini-1.5-pro-exp-0827","gemini-1.5-flash","gemini-1.5-flash-8b","gpt-4o","gpt-4o-mini"],
     "Examples":[
-"Deploy a web application using AWS services with high availability, scalability, and fault tolerance.",
+"Architecture diagram to Deploy a web application using AWS services with high availability, scalability, and fault tolerance.",
 "Design a machine learning pipeline for training and deploying a predictive model on AWS.",
-"Design a machine learning pipeline for training and deploying a predictive model on Azure."
+"Design a machine learning pipeline for training and deploying a predictive model on Azure.",
+"C4 Diagram of Container of Internet Banking System"
 ]
 }

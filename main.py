@@ -24,8 +24,8 @@ buffer = BytesIO()
 
 def get_response(question):
     prompt=f"""
-    You are technical architect. You will be provided project details read it carefully.
-    Provide the python code to create architecture using diagrams library (diagrams 0.24.1).
+    You are technical architect. You will be provided user query with project details read it carefully.
+    Provide the python code to create diagram using diagrams library (diagrams 0.24.1).
     Diagram name should always be "diagram".
     Strictly Response should be in form of following format ```python\n(code)\n```.
     graph_attr = 
